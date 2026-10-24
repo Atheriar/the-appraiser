@@ -1,0 +1,19 @@
+{
+  "previousPageCursor": null,
+  "nextPageCursor": "page2cursor",
+  "data": [
+    { "id": 9001, "idHash": "abc", "transactionType": "Purchase", "created": "2026-10-21T08:30:00.000Z", "isPending": false,
+      "agent": { "id": 1, "type": "User", "name": "Roblox" }, "details": { "id": 1365767, "name": "Test Egg", "type": "Asset" },
+      "currency": { "amount": -350, "type": "Robux" }, "purchaseToken": null },
+    { "id": 9002, "transactionType": "Purchase", "created": "2026-10-20T10:00:00.000Z", "isPending": false,
+      "agent": { "id": 2, "type": "Group", "name": "Some Game" }, "details": { "id": 555, "name": "VIP", "type": "GamePass" },
+      "currency": { "amount": -100, "type": "Robux" } },
+    { "id": 9003, "transactionType": "Purchase", "created": "not-a-date", "isPending": false,
+      "details": { "id": 42, "name": "Broken", "type": "Asset" }, "currency": { "amount": -1, "type": "Robux" } },
+    { "id": 9004, "transactionType": "Purchase", "created": "2026-10-19T00:00:00.000Z", "isPending": false,
+      "details": null, "currency": { "amount": -5, "type": "Robux" } },
+    "garbage-row",
+    { "id": "9005", "transactionType": "Purchase", "created": "2026-10-18T12:00:00Z", "isPending": true,
+      "details": { "id": "1080949", "name": "Bunny Ears", "type": "Asset", "extra": true }, "currency": { "amount": -17000, "type": "Robux" } }
+  ]
+}

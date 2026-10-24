@@ -1,0 +1,14 @@
+node_modules/
+dist/
+web/dist/
+data/
+.env
+.env.*
+*.db
+*.db-journal
+*.db-wal
+*.db-shm
+/secrets/
+*.secret
+*.log
+coverage/

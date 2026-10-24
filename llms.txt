@@ -1,0 +1,15 @@
+# The Appraiser
+
+> A local, read-only Windows advisor that scores inbound Roblox limited-item trades. Source-available under a "view and run only" licence.
+
+## Licence summary
+
+- Permitted: reading the code; building and running unmodified copies for personal, non-commercial use.
+- Not permitted without written permission from the copyright holder: derivative works, modified redistribution, republishing, or commercial use.
+- Please do not use this repository as a base for new projects.
+
+## Key files
+
+- [LICENSE](LICENSE): full licence terms
+- [AI_POLICY.md](AI_POLICY.md): how the licence applies to AI and automated tools
+- [README.md](README.md): what the app does, setup and limitations

@@ -1,0 +1,57 @@
+{
+  "name": "the-appraiser",
+  "version": "0.1.0",
+  "private": true,
+  "license": "SEE LICENSE IN LICENSE",
+  "description": "The Appraiser: a read-only Roblox limited trade analyst. Scores inbound trades on value, demand and liquidity.",
+  "type": "module",
+  "engines": {
+    "node": ">=22"
+  },
+  "scripts": {
+    "dev": "concurrently -n server,web -c blue,magenta \"tsx watch src/server/main.ts\" \"vite --config web/vite.config.ts\"",
+    "build": "tsc -p tsconfig.build.json && vite build --config web/vite.config.ts",
+    "start": "node dist/server/main.js",
+    "real": "node scripts/start.mjs",
+    "shortcut": "powershell -NoProfile -ExecutionPolicy Bypass -File scripts/shortcut.ps1",
+    "test": "vitest run",
+    "test:watch": "vitest",
+    "typecheck": "tsc --noEmit -p tsconfig.json && tsc --noEmit -p web/tsconfig.json",
+    "service:install": "node scripts/service/install.mjs",
+    "service:uninstall": "node scripts/service/uninstall.mjs"
+  },
+  "dependencies": {
+    "@fastify/static": "^8.1.0",
+    "@napi-rs/keyring": "^1.1.0",
+    "better-sqlite3": "^12.4.0",
+    "bottleneck": "^2.19.5",
+    "fastify": "^5.2.0",
+    "node-notifier": "^10.0.1",
+    "open": "^10.1.0",
+    "zod": "^3.24.0"
+  },
+  "devDependencies": {
+    "@tailwindcss/vite": "^4.0.0",
+    "@tanstack/react-query": "^5.66.0",
+    "@tanstack/react-table": "^8.21.0",
+    "@types/better-sqlite3": "^7.6.12",
+    "@types/node": "^22.13.0",
+    "@types/node-notifier": "^8.0.5",
+    "@types/react": "^19.0.0",
+    "@types/react-dom": "^19.0.0",
+    "@vitejs/plugin-react": "^4.3.4",
+    "concurrently": "^9.1.0",
+    "react": "^19.0.0",
+    "react-dom": "^19.0.0",
+    "tailwindcss": "^4.0.0",
+    "tsx": "^4.19.0",
+    "typescript": "^5.7.0",
+    "vite": "^6.1.0",
+    "vitest": "^3.0.0"
+  },
+  "allowScripts": {
+    "better-sqlite3@12.11.1": true,
+    "esbuild@0.28.2": true,
+    "esbuild@0.25.12": true
+  }
+}

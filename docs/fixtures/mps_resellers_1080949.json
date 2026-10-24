@@ -1,0 +1,136 @@
+{
+ "data": [
+  {
+   "collectibleProductId": "48a59f0e-98b0-46be-92de-4e4fac34ec17",
+   "collectibleItemInstanceId": "4db964ec-410a-4c6f-bbaf-c9b13737574f",
+   "seller": {
+    "hasVerifiedBadge": false,
+    "sellerId": 0,
+    "sellerType": "User",
+    "name": "REDACTED"
+   },
+   "price": 17499,
+   "serialNumber": null,
+   "errorMessage": null
+  },
+  {
+   "collectibleProductId": "2aa15eb6-f977-4971-982e-3c11ef62a3aa",
+   "collectibleItemInstanceId": "1585d2e4-19a0-4df5-88ac-03daf5a9f0cf",
+   "seller": {
+    "hasVerifiedBadge": false,
+    "sellerId": 0,
+    "sellerType": "User",
+    "name": "REDACTED"
+   },
+   "price": 17500,
+   "serialNumber": null,
+   "errorMessage": null
+  },
+  {
+   "collectibleProductId": "4d3c8fb1-bfe5-4fd0-bfb7-83912645d1fa",
+   "collectibleItemInstanceId": "d3c486de-6b20-4c21-b3bb-39d738b5399e",
+   "seller": {
+    "hasVerifiedBadge": false,
+    "sellerId": 0,
+    "sellerType": "User",
+    "name": "REDACTED"
+   },
+   "price": 17999,
+   "serialNumber": null,
+   "errorMessage": null
+  },
+  {
+   "collectibleProductId": "ef676921-a566-440c-ab4d-e7b8e15288cd",
+   "collectibleItemInstanceId": "300f185d-f5ba-4ab5-8571-e17e434be56f",
+   "seller": {
+    "hasVerifiedBadge": false,
+    "sellerId": 0,
+    "sellerType": "User",
+    "name": "REDACTED"
+   },
+   "price": 17999,
+   "serialNumber": null,
+   "errorMessage": null
+  },
+  {
+   "collectibleProductId": "0567a23a-8b9a-48bd-b9bd-e66181191451",
+   "collectibleItemInstanceId": "b4a1d301-a6e4-48d9-9823-567bb84b5326",
+   "seller": {
+    "hasVerifiedBadge": false,
+    "sellerId": 0,
+    "sellerType": "User",
+    "name": "REDACTED"
+   },
+   "price": 18099,
+   "serialNumber": null,
+   "errorMessage": null
+  },
+  {
+   "collectibleProductId": "71452537-feb5-4565-88d8-4177d82a095d",
+   "collectibleItemInstanceId": "420b8f98-b801-4961-8c9a-9241ee6ec5e5",
+   "seller": {
+    "hasVerifiedBadge": false,
+    "sellerId": 0,
+    "sellerType": "User",
+    "name": "REDACTED"
+   },
+   "price": 18200,
+   "serialNumber": null,
+   "errorMessage": null
+  },
+  {
+   "collectibleProductId": "3dbf6a8a-f22e-4868-a1b3-b8af1bc4f550",
+   "collectibleItemInstanceId": "cc83b917-edd4-48d1-bb83-d12a5f8bf177",
+   "seller": {
+    "hasVerifiedBadge": false,
+    "sellerId": 0,
+    "sellerType": "User",
+    "name": "REDACTED"
+   },
+   "price": 18500,
+   "serialNumber": null,
+   "errorMessage": null
+  },
+  {
+   "collectibleProductId": "6f392589-d592-4163-a9e7-e2594b928763",
+   "collectibleItemInstanceId": "3c7ad352-4aa7-46ca-8605-435752d86626",
+   "seller": {
+    "hasVerifiedBadge": false,
+    "sellerId": 0,
+    "sellerType": "User",
+    "name": "REDACTED"
+   },
+   "price": 18500,
+   "serialNumber": null,
+   "errorMessage": null
+  },
+  {
+   "collectibleProductId": "76f181c4-ebf1-403b-b2b7-e673d88f831c",
+   "collectibleItemInstanceId": "ff3e50b7-b548-44e0-9838-396ee6570dd9",
+   "seller": {
+    "hasVerifiedBadge": false,
+    "sellerId": 0,
+    "sellerType": "User",
+    "name": "REDACTED"
+   },
+   "price": 18712,
+   "serialNumber": null,
+   "errorMessage": null
+  },
+  {
+   "collectibleProductId": "a8874bd1-910a-4d02-af52-ef56b3638331",
+   "collectibleItemInstanceId": "698d786b-6243-4846-ac4e-833d620b93dd",
+   "seller": {
+    "hasVerifiedBadge": false,
+    "sellerId": 0,
+    "sellerType": "User",
+    "name": "REDACTED"
+   },
+   "price": 18749,
+   "serialNumber": null,
+   "errorMessage": null
+  }
+ ],
+ "previousPageCursor": "id_2zURbxBBIpZ8OmLBGvpLeTk-sNOwX",
+ "nextPageCursor": "id_2zUk9xBCoh0vRkQpNAq9S71azY4Mx"
+}

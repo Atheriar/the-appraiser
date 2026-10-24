@@ -1,0 +1,6 @@
+HTTP/1.1 200 OK
+content-type: application/json; charset=utf-8
+cache-control: no-cache
+x-ratelimit-limit: 30, 30;w=60
+x-ratelimit-remaining: 29
+x-ratelimit-reset: 9

@@ -1,0 +1,182 @@
+{
+ "keyword": null,
+ "previousPageCursor": null,
+ "nextPageCursor": "2_1_0af6c7e5bb74a69a26d1329903702e71",
+ "data": [
+  {
+   "bundledItems": [],
+   "taxonomy": [
+    {
+     "taxonomyId": "thukPQUFe5EHxRrtsgq43u",
+     "taxonomyName": "Head Accessories"
+    }
+   ],
+   "itemCreatedUtc": "2026-10-19T19:05:51.449Z",
+   "id": 112536137093171,
+   "itemType": "Asset",
+   "assetType": 8,
+   "name": "Toxic Void Crown",
+   "description": "",
+   "productId": 7480972301725512,
+   "itemStatus": [],
+   "itemRestrictions": [
+    "Collectible"
+   ],
+   "creatorHasVerifiedBadge": false,
+   "creatorType": "Group",
+   "creatorTargetId": 815206396,
+   "creatorName": "FUGAZY",
+   "price": 95,
+   "lowestPrice": 95,
+   "lowestResalePrice": 0,
+   "unitsAvailableForConsumption": 2985,
+   "favoriteCount": 1,
+   "offSaleDeadline": null,
+   "collectibleItemId": "bfc74e15-3e10-4868-8aad-1d84d719b2ee",
+   "totalQuantity": 3000,
+   "saleLocationType": "ShopAndAllExperiences",
+   "hasResellers": false
+  },
+  {
+   "bundledItems": [],
+   "taxonomy": [
+    {
+     "taxonomyId": "thukPQUFe5EHxRrtsgq43u",
+     "taxonomyName": "Head Accessories"
+    }
+   ],
+   "itemCreatedUtc": "2026-10-19T19:21:45.923Z",
+   "id": 73168281006342,
+   "itemType": "Asset",
+   "assetType": 8,
+   "name": "Toxic Red Void Crown",
+   "description": "",
+   "productId": 218969612803819,
+   "itemStatus": [],
+   "itemRestrictions": [
+    "Collectible"
+   ],
+   "creatorHasVerifiedBadge": false,
+   "creatorType": "Group",
+   "creatorTargetId": 815206396,
+   "creatorName": "FUGAZY",
+   "price": 95,
+   "lowestPrice": 95,
+   "lowestResalePrice": 0,
+   "unitsAvailableForConsumption": 2985,
+   "favoriteCount": 1,
+   "offSaleDeadline": null,
+   "collectibleItemId": "ed62a92e-6385-4f1a-a0a9-4cd2057b5343",
+   "totalQuantity": 3000,
+   "saleLocationType": "ShopAndAllExperiences",
+   "hasResellers": false
+  },
+  {
+   "bundledItems": [],
+   "taxonomy": [
+    {
+     "taxonomyId": "7yGywzp5JeDsNjhXWJqSw3",
+     "taxonomyName": "Back Accessories"
+    }
+   ],
+   "itemCreatedUtc": "2026-10-20T00:40:43.811Z",
+   "id": 97111569341733,
+   "itemType": "Asset",
+   "assetType": 46,
+   "name": "Chained Demon Wings - Emberbound",
+   "description": "",
+   "productId": 800912601312784,
+   "itemStatus": [],
+   "itemRestrictions": [
+    "Collectible"
+   ],
+   "creatorHasVerifiedBadge": false,
+   "creatorType": "Group",
+   "creatorTargetId": 33292344,
+   "creatorName": "SimZone Studios",
+   "price": 0,
+   "lowestPrice": 0,
+   "lowestResalePrice": 0,
+   "priceStatus": "Free",
+   "unitsAvailableForConsumption": 100,
+   "favoriteCount": 0,
+   "offSaleDeadline": null,
+   "collectibleItemId": "505643dc-fa20-4cb7-8488-ab4e7822bf90",
+   "totalQuantity": 100,
+   "saleLocationType": "ExperiencesDevApiOnly",
+   "hasResellers": false,
+   "quantityLimitPerUser": 1
+  },
+  {
+   "bundledItems": [],
+   "taxonomy": [
+    {
+     "taxonomyId": "thukPQUFe5EHxRrtsgq43u",
+     "taxonomyName": "Head Accessories"
+    }
+   ],
+   "itemCreatedUtc": "2026-10-19T18:26:23.685Z",
+   "id": 123755771076839,
+   "itemType": "Asset",
+   "assetType": 8,
+   "name": "Raven hood 3/3 code > Rhp77",
+   "description": "",
+   "productId": 7955536840618312,
+   "itemStatus": [],
+   "itemRestrictions": [
+    "Collectible"
+   ],
+   "creatorHasVerifiedBadge": false,
+   "creatorType": "Group",
+   "creatorTargetId": 998587064,
+   "creatorName": "Bad Boy UGC",
+   "price": 0,
+   "lowestPrice": 0,
+   "lowestResalePrice": 0,
+   "priceStatus": "Free",
+   "unitsAvailableForConsumption": 3,
+   "favoriteCount": 9,
+   "offSaleDeadline": null,
+   "collectibleItemId": "76cfb81a-a0e3-48db-a8bc-45bdd8f7b878",
+   "totalQuantity": 3,
+   "saleLocationType": "ExperiencesDevApiOnly",
+   "hasResellers": false
+  },
+  {
+   "bundledItems": [],
+   "taxonomy": [
+    {
+     "taxonomyId": "7yGywzp5JeDsNjhXWJqSw3",
+     "taxonomyName": "Back Accessories"
+    }
+   ],
+   "itemCreatedUtc": "2026-10-19T17:41:28.627Z",
+   "id": 92968921025605,
+   "itemType": "Asset",
+   "assetType": 46,
+   "name": "[CODE: PHM] Hamster",
+   "description": "",
+   "productId": 8812396591542296,
+   "itemStatus": [],
+   "itemRestrictions": [
+    "Collectible"
+   ],
+   "creatorHasVerifiedBadge": false,
+   "creatorType": "User",
+   "creatorTargetId": 3474614671,
+   "creatorName": "HAYRlDE",
+   "price": 0,
+   "lowestPrice": 0,
+   "lowestResalePrice": 0,
+   "priceStatus": "Free",
+   "unitsAvailableForConsumption": 4,
+   "favoriteCount": 74,
+   "offSaleDeadline": null,
+   "collectibleItemId": "293b67bc-a1e9-4668-98e0-53adda3b51c8",
+   "totalQuantity": 5,
+   "saleLocationType": "ExperiencesDevApiOnly",
+   "hasResellers": false,
+   "quantityLimitPerUser": 1
+  }
+ ]
+}
