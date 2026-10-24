@@ -63,7 +63,7 @@ export function Header() {
     <>
     <header className="flex flex-wrap items-center gap-x-6 gap-y-2 border-b border-neutral-800 bg-neutral-900 px-4 py-2">
       <div className="flex items-center gap-2">
-        <span className="text-sm font-bold text-sky-400">The Appraiser</span>
+        <span className="text-sm font-bold text-sky-400">Appraiser<sup className="ml-0.5 text-[9px] font-semibold text-emerald-400">Public</sup></span>
         <span className="rounded bg-neutral-800 px-1 text-[10px] text-neutral-500" title="Decision support only. Never accepts, declines, counters or sends trades.">read-only</span>
       </div>
       <Stat label="Account" value={d?.account ? d.account.displayName : <span className="text-neutral-500">not signed in</span>} sub={d?.account ? `@${d.account.name}` : `cookie ${cookie}`} />

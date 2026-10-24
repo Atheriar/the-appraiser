@@ -15,6 +15,19 @@ You may **not** modify and redistribute it, republish it, build derivative works
 - It also shows your inventory's value, your past trades' profit/loss, and newly released limiteds.
 - It only *reads*. You still accept or decline on roblox.com yourself.
 
+## Screenshots
+
+*Demo mode — all names and trades are made up.*
+
+**Inbound trades:** every offer scored and explained.
+![Inbound trades](docs/screenshots/inbound.png)
+
+**My Trades:** what each past trade gained you, then and now.
+![My Trades](docs/screenshots/my-trades.png)
+
+**Market:** watchlist, inventory movers and value-change alerts.
+![Market](docs/screenshots/market.png)
+
 ## Quick start
 
 You need **Windows 10/11** and **[Node.js 22 or newer](https://nodejs.org/)**.
