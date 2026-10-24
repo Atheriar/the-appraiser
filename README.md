@@ -6,7 +6,7 @@ A local, read-only advisor for Roblox limited-item trades on Windows. It watches
 
 ## Licence & use
 
-This is **source-available, not open source**. You may read the code and run it for your own personal, non-commercial use. You may **not** modify and redistribute it, republish it, build derivative works or projects from it, or use it commercially without written permission from the copyright holder. See [LICENSE](LICENSE) for the full terms and [AI_POLICY.md](AI_POLICY.md) for how this applies to automated tools.
+You may **not** modify and redistribute it, republish it, build derivative works or projects from it, or use it commercially without written permission from the copyright holder. See [LICENSE](LICENSE) for the full terms and [AI_POLICY.md](AI_POLICY.md) for how this applies to automated tools.
 
 ## What it does
 
