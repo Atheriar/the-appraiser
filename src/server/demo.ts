@@ -307,7 +307,6 @@ export function demoSources(now = Date.now()): SourceHealth[] {
     row('roblox:marketplaceItems', 3, 0, 1_620),
     row('rolimons:items', 300, 0, 96),
     row('rolimons:sales', 4, 0, 5_120),
-    row('rolimons:deals', 7, 0, 2_870),
     row('rolimons:ads', 600, 0, 48),
   ];
 }
