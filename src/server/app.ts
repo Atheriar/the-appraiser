@@ -410,7 +410,7 @@ export function validateSettings(s: Settings): string[] {
   const vb = s.verdictBands;
   if (!(vb.accept >= vb.leanAccept && vb.leanAccept >= vb.counter)) errs.push('verdictBands: must be accept >= leanAccept >= counter');
   if (s.poll.inboundCountMs < 10_000) errs.push('poll.inboundCountMs: >= 10000');
-  if (s.poll.rolimonsSalesMs < 2_000 || s.poll.rolimonsDealsMs < 2_000) errs.push('poll.rolimons feeds: >= 2000');
+  if (s.poll.rolimonsSalesMs < 2_000) errs.push('poll.rolimonsSalesMs: >= 2000');
   if (s.poll.rolimonsItemsMs < 60_000 || s.poll.rolimonsAdsMs < 60_000) errs.push('poll.rolimonsItems/Ads: >= 60000');
   if (s.poll.itemSnapshotsMs < 60_000) errs.push('poll.itemSnapshotsMs: >= 60000');
   const dr = s.drops;

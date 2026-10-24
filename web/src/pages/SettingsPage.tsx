@@ -169,7 +169,7 @@ function SourcesPanel({ s, set }: { s: Settings; set: (f: (d: Settings) => void)
   return (
     <Panel title="Sources">
       <label className="mb-2 flex items-center gap-2 text-xs text-neutral-300">
-        <input type="checkbox" checked={s.rolimonsEnabled} onChange={(e) => set((d) => { d.rolimonsEnabled = e.target.checked; })} /> Use Rolimons (values, demand, trend, sales & deals feeds, trade ads)
+        <input type="checkbox" checked={s.rolimonsEnabled} onChange={(e) => set((d) => { d.rolimonsEnabled = e.target.checked; })} /> Use Rolimons (values, demand, trend, sales feed, trade ads)
       </label>
       <div className="overflow-x-auto">
       <table className="w-full whitespace-nowrap text-[11px]">

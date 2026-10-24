@@ -566,7 +566,6 @@ export interface Settings {
     itemSnapshotsMs: number;
     rolimonsItemsMs: number;
     rolimonsSalesMs: number;
-    rolimonsDealsMs: number;
     rolimonsAdsMs: number;
     ownInventoryMs: number;
     partnerCacheMs: number;
@@ -727,7 +726,6 @@ export const DEFAULT_SETTINGS: Settings = {
     itemSnapshotsMs: 10 * MIN,
     rolimonsItemsMs: 5 * MIN,
     rolimonsSalesMs: 30_000,  // saleactivity window is minutes
-    rolimonsDealsMs: 30_000,
     rolimonsAdsMs: 5 * MIN,
     ownInventoryMs: 30 * MIN,
     partnerCacheMs: DAY,

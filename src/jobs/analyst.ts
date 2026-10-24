@@ -9,7 +9,7 @@
  * READ-ONLY with respect to trades: it never accepts, declines, counters or sends anything.
  */
 import type {
-  AdapterFactory, AuthenticatedUser, CollectibleInstance, RobloxClient, RolimonsClient, RolimonsDeal, RolimonsItem,
+  AdapterFactory, AuthenticatedUser, CollectibleInstance, RobloxClient, RolimonsClient, RolimonsItem,
   RolimonsTradeAd, TradeListEntry,
 } from '../adapters/interfaces.js';
 import type { TradableItem } from '../adapters/interfaces.js';
@@ -103,7 +103,6 @@ export class Analyst {
   roli = new Map<AssetId, RolimonsItem>();
   private ads = new Map<number, RolimonsTradeAd>();
   private adCounts = new Map<AssetId, { req: number; off: number }>();
-  recentDeals: RolimonsDeal[] = [];
   private botIds = new Set<number>();
   private lastInboundCount: number | null = null;
   private lastInboundListAt = 0;
@@ -233,7 +232,6 @@ export class Analyst {
     this.scheduler.add({ name: 'marketBackfill', interval: () => 10 * 60_000, run: live(async () => { await this.backfillMarket(); }), initialDelayMs: 90_000 });
     this.scheduler.add({ name: 'rolimonsItems', interval: roliOn(() => s().poll.rolimonsItemsMs), run: () => this.refreshRolimonsItems(), initialDelayMs: 2_000 });
     this.scheduler.add({ name: 'rolimonsSales', interval: roliOn(() => s().poll.rolimonsSalesMs), run: live(() => this.pollSales()), initialDelayMs: 4_000 });
-    this.scheduler.add({ name: 'rolimonsDeals', interval: roliOn(() => s().poll.rolimonsDealsMs), run: live(() => this.pollDeals()), initialDelayMs: 6_000 });
     this.scheduler.add({ name: 'rolimonsAds', interval: roliOn(() => s().poll.rolimonsAdsMs), run: live(() => this.pollAds()), initialDelayMs: 10_000 });
     const dropsOn = (ms: () => number) => () => (s().drops.enabled ? ms() : 60_000); // paused: idle check each minute
     this.scheduler.add({ name: 'dropsRoblox', interval: dropsOn(() => feedIntervals(s().drops).roblox), run: live(async () => { await this.drops.pollFeed('roblox'); }), initialDelayMs: 2_500 });
@@ -830,14 +828,6 @@ export class Analyst {
     if (!this.rolimons) return;
     const sales = await this.rolimons.getSaleActivity();
     if (sales.length) this.repo.insertSales(sales);
-  }
-
-  async pollDeals(): Promise<void> {
-    if (!this.rolimons) return;
-    const deals = await this.rolimons.getDealActivity();
-    const seen = new Set(this.recentDeals.map((d) => `${d.t}:${d.assetId}:${d.kind}`));
-    for (const d of deals) if (!seen.has(`${d.t}:${d.assetId}:${d.kind}`)) this.recentDeals.unshift(d);
-    this.recentDeals = this.recentDeals.slice(0, 500);
   }
 
   async pollAds(): Promise<void> {
