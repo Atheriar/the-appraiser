@@ -1,4 +1,4 @@
-# The Appraiser
+# The Appraiser: A Roblox trading tool
 
 A local, read-only advisor for Roblox limited-item trades on Windows. It watches your inbound trades, values every item, scores each offer from 0 to 100 and sends a desktop notification when an inbound trade scores well. A dark dashboard runs at `http://127.0.0.1:47615`.
 
